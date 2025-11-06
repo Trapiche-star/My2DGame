@@ -39,6 +39,7 @@ namespace My2DGame
 
         private void FixedUpdate()
         {
+            //ÁÂ¿ìÀÌµ¿
             rb2D.linearVelocity = new Vector2(inputMove.x * walkSpeed, rb2D.linearVelocity.y);
         }
         #endregion
